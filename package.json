@@ -1,0 +1,13 @@
+{
+  "name": "site",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "connect": "^3.4.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-less": "^3.0.3"
+  }
+}
