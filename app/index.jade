@@ -2,7 +2,9 @@ extends layout
 block title
     title Page1
 block content
-     .page
+    .spader(tabindex="1")#go
+        - for (var i = 0; i < 1880; i++)
+           .spader_wrepper-box(id = "swb"+[i])
 
 
 

@@ -1,0 +1,52 @@
+/* MIXINS */
+.inlineblock {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1 !ie;
+  display: inline !ie;
+}
+.clearfix {
+  *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
+  zoom: 1 !ie;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.page {
+  height: 100%;
+  width: 100%;
+}
+.spader_wrepper-box {
+  display: inline-block;
+  vertical-align: top;
+  display: inline !ie;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #c0c0c0;
+  background: #000000;
+  *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
+  zoom: 1 !ie;
+  margin-left: -0.36em;
+}
+.spader_wrepper-box:before,
+.spader_wrepper-box:after {
+  content: "";
+  display: table;
+}
+.spader_wrepper-box:after {
+  clear: both;
+}
+.spader {
+  position: absolute;
+  width: 1000px;
+  height: 900px;
+  top: 50%;
+  left: 50%;
+  margin: -450px 0 0 -500px;
+  outline: none;
+}
